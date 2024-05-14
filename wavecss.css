@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wave_form {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("pexels-photo-6912818.webp");
+}
+
+.wave1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.wave {
+  height: 440px;
+  width: 100%;
+}
+svg {
+  height: 100%;
+  width: 100%;
+  margin-top: 435px;
+}
+.text {
+  color: white;
+  margin-top: -200px;
+}
+h3 {
+  font-size: 2rem;
+}
+h5 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1.5rem;
+  color: rgb(243, 194, 194);
+}
+hr {
+  width: 300px;
+  text-align: center;
+  margin-left: 150px;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.img1 {
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 195px;
+  transition: all 800ms;
+  transition-delay: 100ms;
+}
+
+.img2 {
+  height: 50px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  transition: all 900ms;
+  transition-delay: 300ms;
+  margin-top: 150px;
+}
+
+.img3 {
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  transition: all 800ms;
+  transition-delay: 100ms;
+  margin-top: 35px;
+}
+
+.img4 {
+  height: 50px;
+  border-radius: 50%;
+  background-position: center;
+  transition: all 800ms;
+  transition-delay: 100ms;
+  margin-top: 95px;
+}
+
+.img5 {
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  transition: all 800ms;
+  transition-delay: 100ms;
+  margin-top: 55px;
+}
+.jay {
+  color: black;
+  opacity: 0;
+  font-size: 12px;
+  transition: all 800ms;
+  transition-delay: 100ms;
+}
+.jay {
+  color: black;
+  font-size: 12px;
+  opacity: 0;
+  transition: all 800ms;
+  transition-delay: 100ms;
+}
+.jay {
+  color: black;
+  opacity: 1;
+  font-size: 12px;
+  transition: all 1200ms;
+  transition-delay: 600ms;
+}
+.jay {
+  color: black;
+  opacity: 1;
+  font-size: 12px;
+  transition: all 1500ms;
+  transition-delay: 900ms;
+}
+.jay {
+  color: black;
+  opacity: 0;
+  font-size: 16px;
+  transition: all 800ms;
+  transition-delay: 100ms;
+}
+.jk {
+  position: relative;
+}
+.jk .jay {
+  color: blueviolet;
+  position: absolute;
+  top: 10px;
+}
+.jk:hover .jay {
+  color: black;
+  top: 250px;
+  opacity: 1;
+}
+.jk1 {
+  position: relative;
+}
+.jk1 .jay {
+  color: aqua;
+  position: absolute;
+  top: 10px;
+}
+.jk1:hover .jay {
+  color: #000000;
+  top: 220px;
+  opacity: 1;
+}
+.jk2 {
+  position: relative;
+}
+.jk2 .jay {
+  color: #000;
+  position: absolute;
+  top: 230px;
+}
+.jk2:hover .jay {
+  color: #000000;
+  opacity: 1;
+  top: 120px;
+}
+.jk3 {
+  position: relative;
+}
+.jk3 .jay {
+  color: red;
+  position: absolute;
+  bottom: 50px;
+}
+.jk3:hover .jay {
+  color: #000000;
+  opacity: 1;
+  /* top: 100px; */
+}
+.jk4 {
+  position: relative;
+}
+.jk4 .jay {
+  color: red;
+  position: absolute;
+  top: 10px;
+}
+.jk4:hover .jay {
+  color: #000000;
+  top: 150px;
+  opacity: 1;
+}
